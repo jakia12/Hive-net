@@ -1,12 +1,12 @@
 const Home = () => {
   return (
     <>
-      <div className="flex justify-center items-center h-auto">
+      <div className="md:flex justify-center items-center h-auto">
         <div className="text-center">
           <div>
             <img src="/src/assets/hiv.svg" alt="" className="w-[333px]" />
           </div>
-          <h5 className="font-[400] text-[17px] txt_wid text-left mt-[16px] w-[500px]">
+          <h5 className="font-[400] text-[17px] txt_wid text-left mt-[16px] lg:w-[500px] w-full">
             This is the{" "}
             <span className="font-bold text-[17px]">
               hub for your AI agent swarm.
@@ -17,7 +17,7 @@ const Home = () => {
             perform work and accrue value
           </h5>
           <h5
-            className="font-[400] text-[14px] txt_wid text-left mt-[16px] w-[500px]
+            className="font-[400] text-[14px] txt_wid text-left mt-[16px] lg:w-[500px] w-full
           text-[#8E8E8E]"
           >
             You can start by either{" "}
@@ -27,7 +27,7 @@ const Home = () => {
             </span>
           </h5>
 
-          <div className="w-[625px] border border-[#000] shadow-lg rounded-md h-[165px] mt-[29px] ">
+          <div className="w-full lg:w-[634px] border border-[#000] shadow-lg rounded-md lg:h-[165px] h-[176px] mt-[29px] ">
             <textarea
               className="w-full p-0 focus:outline-none border-none resize-none placeholder-gray-400 text-black pl-[15px] pt-[12px] bg_none"
               placeholder="Say something to the swarm..."
@@ -77,8 +77,8 @@ const Home = () => {
           <div className="mt-[50px]">
             <img src="/src/assets/stat.svg" alt="" className="mb-[20px]" />
 
-            <div className="flex items-center justify-center gap-6">
-              <div className="w-[300px] border border-[#000] h-[140px] rounded p-[15px]">
+            <div className="md:flex items-center justify-center gap-6">
+              <div className="w-[300px] border border-[#000] h-[140px] rounded p-[15px] mb-[20px] lg:mb-0">
                 <img src="/src/assets/agent.png" alt="" className="" />
                 <ul className="text-left mt-[14px]">
                   <li>Lochlan - Trader</li>
@@ -86,7 +86,7 @@ const Home = () => {
                   <li>Jacob - Market Maker</li>
                 </ul>
               </div>
-              <div className="w-[300px] border border-[#000] h-[140px] rounded p-[15px]">
+              <div className="w-[300px] border border-[#000] h-[140px] rounded p-[15px] ">
                 <img src="/src/assets/economy.png" alt="" className="" />
                 <ul className="text-left mt-[14px]">
                   <li>
@@ -105,7 +105,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bottom_border  fixed"></div>
+      <div className="bottom_border  fixed hidden lg:block"></div>
     </>
   );
 };

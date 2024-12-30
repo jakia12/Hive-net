@@ -12,7 +12,7 @@ const CreateAgent = () => {
       </div>
       {/* hivenet reply */}
       <div className="relative">
-        <div className="w-[634px] border-2 border-[#C1C1C1] rounded-xl bg-[#fff]  mt-[60px] pl-[20px] py-[18px] pr-[15px] ">
+        <div className="lg:w-[634px] w-full border-2 border-[#C1C1C1] rounded-xl bg-[#fff]  mt-[60px] pl-[20px] py-[18px] pr-[15px] ">
           <p className="text-[13px] font-[400]  text-left">
             <b> Let’s create your new agent!</b>
           </p>
@@ -24,7 +24,7 @@ const CreateAgent = () => {
             What do you want to call your agent? Something snappy, maybe?
           </p>
         </div>
-        <div className="absolute right-0 flex items-center gap-2 mt-[7px] text-[12px]">
+        <div className="absolute right-0 flex items-center gap-2 mt-[7px] text-[12px] ">
           <img src="/src/assets/logo.png" className="w-[8px] h-[8px]" alt="" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F13EBF] via-red-500 to-yellow-500 ">
             @Lochlan
@@ -43,7 +43,7 @@ const CreateAgent = () => {
       </div>
       {/* hivenet reply */}
       <div className="relative">
-        <div className="w-[634px] border-2 border-[#C1C1C1] rounded-xl bg-[#fff]  mt-[60px] pl-[20px] py-[18px] pr-[15px] ">
+        <div className="lg:w-[634px] w-full border-2 border-[#C1C1C1] rounded-xl bg-[#fff]  mt-[60px] pl-[20px] py-[18px] pr-[15px] ">
           <p className="text-[13px] font-[400]  text-left">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F13EBF] via-red-500 to-yellow-500 font-bold">
               Jasper
@@ -81,7 +81,7 @@ const CreateAgent = () => {
 
       {/* messege box */}
 
-      <div className="border-2 border-[#000] shadow-xl rounded-xl w-[634px] p-[15px] mt-[200px] relative">
+      <div className="border-2 border-[#000] shadow-xl rounded-xl lg:w-[634px] w-full p-[15px] mt-[200px] relative">
         <input
           type="text"
           className="w-full outline-none border-none focus:ring-0"

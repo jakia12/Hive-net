@@ -47,6 +47,16 @@ body {
   width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .bottom_border {
+    position: fixed;
+    height: 37px;
+    border-top: 1px solid #000;
+    bottom: 0;
+    left: 70px;
+    width: 0;
+  }
+}
 .bg_none {
   background: none !important;
 }

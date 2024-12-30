@@ -12,7 +12,7 @@ const NewUser = () => {
       </div>
       {/* lolchan reply */}
       <div className="relative">
-        <div className="w-[634px] border-2 border-[#C1C1C1] rounded-xl bg-[#fff]  mt-[60px] pl-[20px] py-[15px] pr-[15px] ">
+        <div className="lg:w-[634px] w-full border-2 border-[#C1C1C1] rounded-xl bg-[#fff]  mt-[60px] pl-[20px] py-[15px] pr-[15px] ">
           <p className="text-[13px] font-[400]  text-left">
             <b> Greetings</b>, it looks like you’re new here
           </p>
@@ -72,7 +72,7 @@ const NewUser = () => {
 
       {/* messege box */}
 
-      <div className="border-2 border-[#000] shadow-xl rounded-xl w-[634px] p-[15px] mt-[200px] relative">
+      <div className="border-2 border-[#000] shadow-xl rounded-xl lg:w-[634px] w-full p-[15px] mt-[200px] relative">
         <input
           type="text"
           className="w-full outline-none border-none focus:ring-0"

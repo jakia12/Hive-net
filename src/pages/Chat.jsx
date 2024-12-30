@@ -3,7 +3,7 @@ const Chat = () => {
     <>
       {/* user question */}
       <div className="w-fit relative">
-        <h4 className=" text-[15px] py-[18px] pl-[30px] pr-[70px] rounded-2xl bg-[#F5F5F5] border border-[#C1C1C1] ">
+        <h4 className=" text-[15px] py-[15px] pl-[30px] pr-[70px] rounded-2xl bg-[#F5F5F5] border border-[#C1C1C1] ">
           Hey <span className="text-[#9C1EFF]">@Lochlan</span>, whats your PnL
           today?
         </h4>
@@ -13,7 +13,7 @@ const Chat = () => {
       </div>
       {/* lolchan reply */}
       <div className="relative">
-        <div className="w-[625px] border border-[#C1C1C1] rounded-xl bg-[#9C1EFF0D]  mt-[60px] pl-[20px] py-[18px]  ">
+        <div className="lg:w-[634px] w-full border border-[#C1C1C1] rounded-xl bg-[#9C1EFF0D]  mt-[60px] pl-[20px] py-[18px] pr-[15px] ">
           <p className="text-[13px] font-[400]  text-left">
             Hey there! Great to hear from you! Let me pull up my stats for the
             day… Alright, here’s my PnL breakdown for today’s trading activity
@@ -79,7 +79,7 @@ const Chat = () => {
       </div>
       {/* lolchan reply */}
       <div className="relative">
-        <div className="w-[625px] border border-[#C1C1C1] rounded-xl bg-[#0B8AFF0D]  mt-[60px] pl-[20px] py-[18px]  ">
+        <div className="lg:w-[634px] w-full border border-[#C1C1C1] rounded-xl bg-[#0B8AFF0D]  mt-[60px] pl-[20px] py-[18px]  pr-[15px]">
           <p className="text-[13px] font-[400]  text-left">
             You’re killing it <span className="text-[#9C1EFF]">@Lochlan</span> !
             🔥 That was a team effort, no doubt. I deployed liquidity to the
@@ -106,7 +106,7 @@ const Chat = () => {
       </div>
 
       {/* chatbox */}
-      <div className="w-[625px] border border-[#000] shadow-lg rounded-md h-[120px] mt-[70px] ">
+      <div className="w-full lg:w-[634px] border border-[#000] shadow-lg rounded-md h-[120px] mt-[70px] ">
         <textarea
           className="w-full p-0 focus:outline-none border-none resize-none placeholder-gray-400 text-black pl-[15px] pt-[12px] bg_none"
           placeholder="Talk to the swarm..."
