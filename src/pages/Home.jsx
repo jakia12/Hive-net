@@ -84,7 +84,7 @@ const Home = () => {
             <img src={stat} alt="" className="mb-[20px]" />
 
             <div className="md:flex items-center justify-center gap-6">
-              <div className="w-[300px] border border-[#000] h-[140px] rounded p-[15px] mb-[20px] lg:mb-0">
+              <div className="w-[300px] border border-[#000] h-[140px] rounded p-[15px] mb-[20px] lg:mb-0 shadow-xl">
                 <img src={agent} alt="" className="" />
                 <ul className="text-left mt-[14px]">
                   <li>Lochlan - Trader</li>
@@ -92,7 +92,7 @@ const Home = () => {
                   <li>Jacob - Market Maker</li>
                 </ul>
               </div>
-              <div className="w-[300px] border border-[#000] h-[140px] rounded p-[15px] ">
+              <div className="w-[300px] border border-[#000] h-[140px] rounded p-[15px] shadow-xl">
                 <img src={economy} alt="" className="" />
                 <ul className="text-left mt-[14px]">
                   <li>
