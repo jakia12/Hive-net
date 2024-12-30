@@ -4,7 +4,11 @@ const Home = () => {
       <div className="md:flex justify-center items-center h-auto">
         <div className="text-center">
           <div>
-            <img src="/src/assets/hiv.svg" alt="" className="w-[333px]" />
+            <img
+              src="../../public/assets/logo.png"
+              alt=""
+              className="w-[333px]"
+            />
           </div>
           <h5 className="font-[400] text-[17px] txt_wid text-left mt-[16px] lg:w-[500px] w-full">
             This is the{" "}
@@ -68,18 +72,22 @@ const Home = () => {
               >
                 Enter{" "}
                 <span>
-                  <img src="/src/assets/arrow.png" alt="" />
+                  <img src="../../public/assets/arrow.png" alt="" />
                 </span>
               </button>
             </div>
           </div>
 
           <div className="mt-[50px]">
-            <img src="/src/assets/stat.svg" alt="" className="mb-[20px]" />
+            <img
+              src="../../public/assets/stat.svg"
+              alt=""
+              className="mb-[20px]"
+            />
 
             <div className="md:flex items-center justify-center gap-6">
               <div className="w-[300px] border border-[#000] h-[140px] rounded p-[15px] mb-[20px] lg:mb-0">
-                <img src="/src/assets/agent.png" alt="" className="" />
+                <img src="../../public/assets/agent.png" alt="" className="" />
                 <ul className="text-left mt-[14px]">
                   <li>Lochlan - Trader</li>
                   <li>Franzis - Artist</li>
@@ -87,7 +95,11 @@ const Home = () => {
                 </ul>
               </div>
               <div className="w-[300px] border border-[#000] h-[140px] rounded p-[15px] ">
-                <img src="/src/assets/economy.png" alt="" className="" />
+                <img
+                  src="../../public/assets/economy.png"
+                  alt=""
+                  className=""
+                />
                 <ul className="text-left mt-[14px]">
                   <li>
                     <b>Volume</b> - $1.85M
