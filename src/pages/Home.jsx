@@ -1,4 +1,8 @@
-import logo from "../../public/assets/logo.png";
+import textImg from "../../public/assets/banntxt.png";
+import arrow from "../../public/assets/arrow.png";
+import stat from "../../public/assets/stat.svg";
+import agent from "../../public/assets/agent.png";
+import economy from "../../public/assets/economy.png";
 
 const Home = () => {
   return (
@@ -6,7 +10,7 @@ const Home = () => {
       <div className="md:flex justify-center items-center h-auto">
         <div className="text-center">
           <div>
-            <img src={logo} alt="" className="w-[333px]" />
+            <img src={textImg} alt="" className="w-[333px]" />
           </div>
           <h5 className="font-[400] text-[17px] txt_wid text-left mt-[16px] lg:w-[500px] w-full">
             This is the{" "}
@@ -70,22 +74,18 @@ const Home = () => {
               >
                 Enter{" "}
                 <span>
-                  <img src="../../public/assets/arrow.png" alt="" />
+                  <img src={arrow} alt="" />
                 </span>
               </button>
             </div>
           </div>
 
           <div className="mt-[50px]">
-            <img
-              src="../../public/assets/stat.svg"
-              alt=""
-              className="mb-[20px]"
-            />
+            <img src={stat} alt="" className="mb-[20px]" />
 
             <div className="md:flex items-center justify-center gap-6">
               <div className="w-[300px] border border-[#000] h-[140px] rounded p-[15px] mb-[20px] lg:mb-0">
-                <img src="../../public/assets/agent.png" alt="" className="" />
+                <img src={agent} alt="" className="" />
                 <ul className="text-left mt-[14px]">
                   <li>Lochlan - Trader</li>
                   <li>Franzis - Artist</li>
@@ -93,11 +93,7 @@ const Home = () => {
                 </ul>
               </div>
               <div className="w-[300px] border border-[#000] h-[140px] rounded p-[15px] ">
-                <img
-                  src="../../public/assets/economy.png"
-                  alt=""
-                  className=""
-                />
+                <img src={economy} alt="" className="" />
                 <ul className="text-left mt-[14px]">
                   <li>
                     <b>Volume</b> - $1.85M

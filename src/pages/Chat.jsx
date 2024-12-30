@@ -1,3 +1,5 @@
+import arrow from "../../public/assets/arrow.png";
+import logo from "../../public/assets/logo.png";
 const Chat = () => {
   return (
     <>
@@ -73,7 +75,7 @@ const Chat = () => {
           </p>
         </div>
         <div className="absolute right-0 flex items-center gap-2 mt-[7px] text-[12px]">
-          <img src="/src/assets/logo.png" className="w-[8px] h-[8px]" alt="" />
+          <img src={logo} className="w-[8px] h-[8px]" alt="" />
           <span className="text-[#9C1EFF] ">@Lochlan</span> <p> 1.05pm </p>
         </div>
       </div>
@@ -100,7 +102,7 @@ const Chat = () => {
           </p>
         </div>
         <div className="absolute right-0 flex items-center gap-2 mt-[7px] text-[12px]">
-          <img src="/src/assets/logo.png" className="w-[8px] h-[8px]" alt="" />
+          <img src={logo} className="w-[8px] h-[8px]" alt="" />
           <span className="text-[#0B8AFF] ">@Jacob</span> <p> 1.05pm </p>
         </div>
       </div>
@@ -144,7 +146,7 @@ const Chat = () => {
           <button type="submit" className="flex items-center gap-3 mr-[13px]">
             Enter{" "}
             <span>
-              <img src="/src/assets/arrow.png" alt="" />
+              <img src={arrow} alt="" />
             </span>
           </button>
         </div>

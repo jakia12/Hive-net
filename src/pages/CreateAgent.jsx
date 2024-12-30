@@ -1,3 +1,6 @@
+import logo from "../../public/assets/logo.png";
+import msg from "../../public/assets/msg.png";
+
 const CreateAgent = () => {
   return (
     <>
@@ -25,7 +28,7 @@ const CreateAgent = () => {
           </p>
         </div>
         <div className="absolute right-0 flex items-center gap-2 mt-[7px] text-[12px] ">
-          <img src="/src/assets/logo.png" className="w-[8px] h-[8px]" alt="" />
+          <img src={logo} className="w-[8px] h-[8px]" alt="" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F13EBF] via-red-500 to-yellow-500 ">
             @Lochlan
           </span>{" "}
@@ -71,7 +74,7 @@ const CreateAgent = () => {
           </ul>
         </div>
         <div className="absolute right-0 flex items-center gap-2 mt-[7px] text-[12px]">
-          <img src="/src/assets/logo.png" className="w-[8px] h-[8px]" alt="" />
+          <img src={logo} className="w-[8px] h-[8px]" alt="" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F13EBF] via-red-500 to-yellow-500 ">
             @Lochlan
           </span>{" "}
@@ -88,7 +91,7 @@ const CreateAgent = () => {
           placeholder="Type Messege..."
         />
         <button type="submit" className="absolute right-4">
-          <img src="/src/assets/msg.png" alt="" />
+          <img src={msg} alt="" />
         </button>
       </div>
       <div className="bottom_border  fixed"></div>
