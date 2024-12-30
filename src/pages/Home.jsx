@@ -1,14 +1,12 @@
+import logo from "../../public/assets/logo.png";
+
 const Home = () => {
   return (
     <>
       <div className="md:flex justify-center items-center h-auto">
         <div className="text-center">
           <div>
-            <img
-              src="../../public/assets/logo.png"
-              alt=""
-              className="w-[333px]"
-            />
+            <img src={logo} alt="" className="w-[333px]" />
           </div>
           <h5 className="font-[400] text-[17px] txt_wid text-left mt-[16px] lg:w-[500px] w-full">
             This is the{" "}
