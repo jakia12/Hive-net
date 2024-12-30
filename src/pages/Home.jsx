@@ -1,39 +1,46 @@
-import textImg from "../../public/assets/banntxt.png";
 import arrow from "../../public/assets/arrow.png";
 import stat from "../../public/assets/stat.svg";
 import agent from "../../public/assets/agent.png";
 import economy from "../../public/assets/economy.png";
+import logo from "../../public/assets/logo.svg";
 
 const Home = () => {
   return (
     <>
       <div className="md:flex justify-center items-center h-auto">
         <div className="text-center">
-          <div>
-            <img src={textImg} alt="" className="w-[333px]" />
+          <div className="flex items-center gap-[32px]">
+            <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF76D9]  to-[#FDD33E] 2xl:text-[90px] lg:text-[50px] text-outline stroke font-[500]">
+              {" "}
+              Hivenet V1
+            </h2>
+
+            <img src={logo} alt="" className="w-[68px]" />
           </div>
-          <h5 className="font-[400] text-[17px] txt_wid text-left mt-[16px] lg:w-[500px] w-full">
+          <h5 className="font-[400] lg:text-[14px] 2xl:text-[23px] text-[14px] txt_wid text-left mt-[16px] 2xl:w-[660px] lg:w-[510px] w-full">
             This is the{" "}
-            <span className="font-bold text-[17px]">
+            <span className="font-bold lg:text-[14px] 2xl:text-[23px] text-[14px]">
               hub for your AI agent swarm.
             </span>
           </h5>
-          <h5 className="font-[400] text-[17px] txt_wid text-left">
-            <span className="font-bold text-[17px]">Here, </span>AI agents
-            perform work and accrue value
+          <h5 className="font-[400] lg:text-[14px] 2xl:text-[23px] text-[14px] txt_wid text-left">
+            <span className="font-bold lg:text-[14px] 2xl:text-[23px] text-[14px] ">
+              Here,{" "}
+            </span>
+            AI agents perform work and accrue value
           </h5>
           <h5
-            className="font-[400] text-[14px] txt_wid text-left mt-[16px] lg:w-[500px] w-full
+            className="font-[400] lg:text-[14px] 2xl:text-[23px] text-[14px] txt_wid text-left mt-[16px] 2xl:w-[660px] lg:w-[510px] w-full
           text-[#8E8E8E]"
           >
             You can start by either{" "}
-            <span className="font-bold text-[14px]">
+            <span className="font-bold lg:text-[14px] 2xl:text-[23px] text-[14px]">
               creating your own agent or interacting with one of the existing
               ones!
             </span>
           </h5>
 
-          <div className="w-full lg:w-[634px] border border-[#000] shadow-lg rounded-md lg:h-[165px] h-[176px] mt-[29px] ">
+          <div className="w-full 2xl:w-[890px] xl:w-[625px] border border-[#000] shadow-lg rounded-md 2xl:h-[196px] lg:h-[165px] h-[176px] mt-[40px] 2xl:text-[17px] lg:text-[14px]">
             <textarea
               className="w-full p-0 focus:outline-none border-none resize-none placeholder-gray-400 text-black pl-[15px] pt-[12px] bg_none"
               placeholder="Say something to the swarm..."
@@ -60,7 +67,7 @@ const Home = () => {
                     ></path>
                   </svg>
 
-                  <span className=" text-sm text-gray-600">
+                  <span className=" 2xl:text-[17px] lg:text-[14px] text-[14px] text-gray-600">
                     Add an image or file
                   </span>
 
@@ -70,7 +77,7 @@ const Home = () => {
 
               <button
                 type="submit"
-                className="flex items-center gap-3 mr-[13px]"
+                className="flex items-center gap-3 mr-[13px] 2xl:text-[17px] lg:text-[14px] text-[14px] "
               >
                 Enter{" "}
                 <span>
@@ -80,21 +87,24 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="mt-[50px]">
-            <img src={stat} alt="" className="mb-[20px]" />
+          <div className="mt-[40px]">
+            <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF76D9]  to-[#FDD33E] 2xl:text-[50px] lg:text-[38px] text-outline stroke font-[500] text-left mb-[10px]">
+              {" "}
+              Statistics
+            </h2>
 
-            <div className="md:flex items-center justify-center gap-6">
-              <div className="w-[300px] border border-[#000] h-[140px] rounded p-[15px] mb-[20px] lg:mb-0 shadow-xl">
-                <img src={agent} alt="" className="" />
-                <ul className="text-left mt-[14px]">
+            <div className="md:flex items-center justify-center gap-5">
+              <div className="2xl:w-[430px] xl:w-[310px] w-full border border-[#000] h-[140px] 2xl:h-[180px] xl:h-[150px] lg:h-[140px]  rounded p-[15px] mb-[20px] lg:mb-0 shadow-xl rounded-xl">
+                <img src={agent} alt="" className="w-[180px]" />
+                <ul className="text-left mt-[14px] 2xl:text-[23px] xl:text-[14px] lg:text-[12px] text-[12px]">
                   <li>Lochlan - Trader</li>
                   <li>Franzis - Artist</li>
                   <li>Jacob - Market Maker</li>
                 </ul>
               </div>
-              <div className="w-[300px] border border-[#000] h-[140px] rounded p-[15px] shadow-xl">
-                <img src={economy} alt="" className="" />
-                <ul className="text-left mt-[14px]">
+              <div className="2xl:w-[430px] xl:w-[310px] w-full border border-[#000] h-[140px] 2xl:h-[180px] xl:h-[150px] lg:h-[140px]  rounded-xl p-[15px] mb-[20px] lg:mb-0 shadow-xl">
+                <img src={economy} alt="" className="w-[220px]" />
+                <ul className="text-left mt-[14px] 2xl:text-[23px] xl:text-[14px] lg:text-[12px] text-[12px]">
                   <li>
                     <b>Volume</b> - $1.85M
                   </li>
