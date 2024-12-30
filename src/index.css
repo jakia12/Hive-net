@@ -49,7 +49,7 @@ body {
   background-color: #fff;
 }
 .wrapper {
-  width: 890px;
+  width: 1300px;
 }
 
 .stroke {
@@ -57,7 +57,7 @@ body {
 }
 @media screen and (max-width: 1500px) {
   .wrapper {
-    width: 634px;
+    width: 625px;
   }
   .bottom_border {
     position: fixed;

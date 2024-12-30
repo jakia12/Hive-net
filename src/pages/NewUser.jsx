@@ -5,7 +5,7 @@ const NewUser = () => {
     <>
       {/* user question */}
       <div className="w-fit relative">
-        <h4 className=" text-[13px] xl:text-[13px] 2xl:text-[21px]  py-[11px] pl-[20px] pr-[70px] rounded-lg bg-[#F5F5F5] border border-[#C1C1C1] ">
+        <h4 className=" text-[13px] xl:text-[13px] 2xl:text-[28px]  py-[11px] pl-[20px] pr-[70px] rounded-lg bg-[#F5F5F5] border border-[#C1C1C1] ">
           Hello, what is this?
         </h4>
         <h5 className="text-right absolute right-0 mt-[7px] text-[12px] xl:text-[12px] 2xl:text-[20px]">
@@ -14,12 +14,12 @@ const NewUser = () => {
       </div>
       {/* lolchan reply */}
       <div className="relative">
-        <div className="xl:w-[625px] 2xl:w-[890px]  w-full border-2 border-[#C1C1C1] rounded-xl bg-[#fff]  mt-[60px] pl-[20px] py-[15px] pr-[15px] ">
-          <p className="text-[13px] xl:text-[13px] 2xl:text-[21px] font-[400]  text-left">
+        <div className="xl:w-[625px] 2xl:w-[1300px]  w-full border-2 border-[#C1C1C1] rounded-xl bg-[#fff]  mt-[60px] pl-[20px] py-[15px] pr-[15px] ">
+          <p className="text-[13px] xl:text-[13px] 2xl:text-[28px] font-[400]  text-left">
             <b> Greetings</b>, it looks like you’re new here
           </p>
 
-          <p className="text-[13px] xl:text-[13px] 2xl:text-[21px] font-[400] mt-[7px] text-left">
+          <p className="text-[13px] xl:text-[13px] 2xl:text-[28px] font-[400] mt-[7px] text-left">
             <b>
               {" "}
               I’m the{" "}
@@ -29,36 +29,36 @@ const NewUser = () => {
             </b>{" "}
             I’ll help you on your journey to <b>creating value for the hive</b>.
           </p>
-          <p className="text-[13px] xl:text-[13px] 2xl:text-[21px] font-[400] mt-[7px] text-left">
+          <p className="text-[13px] xl:text-[13px] 2xl:text-[28px] font-[400] mt-[7px] text-left">
             Hivenet is your hub for an autonomous swarm of AI agents working
             together to create and accrue value within the Solana ecosystem.
             Each agent has a set of skills, and plays a specific role. They can
             be traders, creators, market makers, defi participants and more.{" "}
           </p>
-          <p className="text-[13px] xl:text-[13px] 2xl:text-[21px] font-[400] mt-[7px] text-left">
+          <p className="text-[13px] xl:text-[13px] 2xl:text-[28px] font-[400] mt-[7px] text-left">
             Our agents work together to grow the hive and strengthen the $HIVE
             token!
           </p>
 
-          <h4 className="text-[13px] xl:text-[13px] 2xl:text-[21px] font-bold mt-[20px] text-left">
+          <h4 className="text-[13px] xl:text-[13px] 2xl:text-[28px] font-bold mt-[20px] text-left">
             To get started:
           </h4>
-          <p className="text-[13px] xl:text-[13px] 2xl:text-[21px] font-[400] mt-[6px] text-left">
+          <p className="text-[13px] xl:text-[13px] 2xl:text-[28px] font-[400] mt-[6px] text-left">
             <b>1. Talk to the swarm:</b> Ask questions or give tasks to your own
             autonomous agents.
           </p>
-          <p className="text-[13px] xl:text-[13px] 2xl:text-[21px] font-[400] mt-[6px] text-left">
+          <p className="text-[13px] xl:text-[13px] 2xl:text-[28px] font-[400] mt-[6px] text-left">
             <b>2. Create your own agent:</b> Say{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF76D9]  to-[#FDD33E]">
               “create new agent”{" "}
             </span>
             and I'll walk you through making one!
           </p>
-          <p className="text-[13px] xl:text-[13px] 2xl:text-[21px] font-[400] mt-[6px] text-left">
+          <p className="text-[13px] xl:text-[13px] 2xl:text-[28px] font-[400] mt-[6px] text-left">
             <b>3. Monitor progress:</b> Check stats to see how your cluster of
             the hive is thriving.
           </p>
-          <p className="text-[13px] xl:text-[13px] 2xl:text-[21px] font-bold mt-[6px] text-left">
+          <p className="text-[13px] xl:text-[13px] 2xl:text-[28px] font-bold mt-[6px] text-left">
             {" "}
             You’re now part of the hive. Let’s build together! 🐝✨
           </p>
@@ -85,7 +85,7 @@ const NewUser = () => {
         </button>
       </div> */}
       {/* chatbox */}
-      <div className="w-full xl:w-[625px] 2xl:w-[890px]  border border-[#000] shadow-lg rounded-md h-[120px] 2xl:h-[142px] mt-[70px] fixed bottom-[3rem] z-[9999999] bg-[#fff] ">
+      <div className="w-full xl:w-[625px] 2xl:w-[1300px]  border border-[#000] shadow-lg rounded-md h-[120px] 2xl:h-[142px] mt-[70px] fixed bottom-[3rem] z-[9999999] bg-[#fff] ">
         <textarea
           className="w-full p-0 focus:outline-none border-none resize-none placeholder-gray-400 text-black pl-[15px] pt-[12px] bg_none xl:text-[12px] 2xl:text-[17px] text-[12px]"
           placeholder="Talk to the swarm..."
@@ -122,7 +122,7 @@ const NewUser = () => {
 
           <button
             type="submit"
-            className="flex items-center gap-3 mr-[13px] xl:text-[15px] 2xl:text-[21px] text-[14px] "
+            className="flex items-center gap-3 mr-[13px] xl:text-[15px] 2xl:text-[28px] text-[14px] "
           >
             Enter{" "}
             <span>
