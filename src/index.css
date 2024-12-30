@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom font */
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Mono", serif !important;
+}
+
+#root {
+  max-width: none !important;
+  margin: 0 auto;
+  padding: 0 !important;
+  text-align: center;
+}
+
+/* sidebar design */
+.bottomLogo {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 35px;
+  left: 30%;
+}
+.topLogo {
+  margin: 0 auto;
+  padding-top: 28px;
+  font-size: 50px;
+}
+
+.gearIcon {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 86px;
+  left: 41%;
+}
+.bottom_border {
+  position: fixed;
+  height: 37px;
+  border-top: 1px solid #000;
+  bottom: 0;
+  left: 70px;
+  width: 100%;
+}
+
+.bg_none {
+  background: none !important;
+}
