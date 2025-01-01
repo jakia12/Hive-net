@@ -29,7 +29,7 @@ const Home = () => {
             AI agents perform work and accrue value
           </h5>
           <h5
-            className="font-[400] lg:text-[13px] 2xl:text-[16px] text-[13px] txt_wid text-left mt-[20px] 2xl w-full
+            className="font-[400] lg:text-[13px] 2xl:text-[16px] text-[13px] txt_wid text-left mt-[20px] 2xl:w-[628px] lg:w-[628px] w-full
           text-[#8E8E8E]"
           >
             You can start by either{" "}

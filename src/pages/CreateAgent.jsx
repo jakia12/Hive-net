@@ -6,7 +6,7 @@ const CreateAgent = () => {
     <div className="pb-[120px]">
       {/* user question */}
       <div className="w-fit relative">
-        <h4 className=" text-[13px] xl:text-[13px] 2xl:text-[28px] py-[13px] pl-[18px] pr-[70px] rounded-lg bg-[#F5F5F5] border border-[#C1C1C1] ">
+        <h4 className=" text-[13px] xl:text-[13px] 2xl:text-[17px] py-[13px] pl-[18px] 2xl:pr-[30px] xl:pr-[30px] lg:pr-[30px] pr-[18px] text-left rounded-lg bg-[#F5F5F5] border border-[#C1C1C1] ">
           create new agent
         </h4>
         <h5 className="text-right absolute right-0 mt-[7px] text-[12px] xl:text-[12px] 2xl:text-[20px]">
@@ -15,15 +15,15 @@ const CreateAgent = () => {
       </div>
       {/* hivenet reply */}
       <div className="relative">
-        <div className="xl:w-[625px] 2xl:w-[1300px] w-full border-2 border-[#C1C1C1] rounded-xl bg-[#fff]  mt-[60px] pl-[20px] py-[18px] pr-[15px] ">
-          <p className="text-[13px] xl:text-[13px] 2xl:text-[28px] font-[400]  text-left">
+        <div className="xl:w-[625px] 2xl:w-[800px] w-full border-2 border-[#C1C1C1] rounded-xl bg-[#fff]  mt-[60px] pl-[20px] py-[18px] pr-[15px] ">
+          <p className="text-[13px] xl:text-[13px] 2xl:text-[17px] font-[400]  text-left">
             <b> Let’s create your new agent!</b>
           </p>
 
-          <p className="text-[13px] xl:text-[13px] 2xl:text-[28px] font-[400] mt-[6px] text-left">
+          <p className="text-[13px] xl:text-[13px] 2xl:text-[17px] font-[400] mt-[6px] text-left">
             <b>1. Name Your Agent 🤔 </b>
           </p>
-          <p className="text-[13px] xl:text-[13px] 2xl:text-[28px] font-[400] mt-[7px] text-left">
+          <p className="text-[13px] xl:text-[13px] 2xl:text-[17px] font-[400] mt-[7px] text-left">
             What do you want to call your agent? Something snappy, maybe?
           </p>
         </div>
@@ -37,7 +37,7 @@ const CreateAgent = () => {
       </div>
       {/* user question */}
       <div className="w-fit relative mt-[40px]">
-        <h4 className=" text-[13px] xl:text-[13px] 2xl:text-[28px] py-[13px] pl-[18px] pr-[70px] rounded-lg bg-[#F5F5F5] border border-[#C1C1C1] ">
+        <h4 className=" text-[13px] xl:text-[13px] 2xl:text-[17px] py-[13px] pl-[18px] 2xl:pr-[30px] xl:pr-[30px] lg:pr-[30px] pr-[18px] text-left rounded-lg bg-[#F5F5F5] border border-[#C1C1C1] ">
           Jasper
         </h4>
         <h5 className="text-right absolute right-0 mt-[7px] text-[12px] xl:text-[12px] 2xl:text-[20px]">
@@ -46,8 +46,8 @@ const CreateAgent = () => {
       </div>
       {/* hivenet reply */}
       <div className="relative">
-        <div className="xl:w-[625px] 2xl:w-[1300px] w-full border-2 border-[#C1C1C1] rounded-xl bg-[#fff]  mt-[60px] pl-[20px] py-[18px] pr-[15px] ">
-          <p className="text-[13px] xl:text-[13px] 2xl:text-[28px] font-[400]  text-left">
+        <div className="xl:w-[625px] 2xl:w-[800px] w-full border-2 border-[#C1C1C1] rounded-xl bg-[#fff]  mt-[60px] pl-[20px] py-[18px] pr-[15px] ">
+          <p className="text-[13px] xl:text-[13px] 2xl:text-[17px] font-[400]  text-left">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF76D9]  to-[#FDD33E]">
               Jasper
             </span>{" "}
@@ -55,13 +55,13 @@ const CreateAgent = () => {
             <b>Next Step:</b>
           </p>
 
-          <h4 className="text-[13px] xl:text-[13px] 2xl:text-[28px] font-[400] mt-[6px] text-left">
+          <h4 className="text-[13px] xl:text-[13px] 2xl:text-[17px] font-[400] mt-[6px] text-left">
             <b> 2. Choose a role 🛠️</b>
           </h4>
-          <p className="text-[13px] xl:text-[13px] 2xl:text-[28px] font-[400] mt-[7px] text-left">
+          <p className="text-[13px] xl:text-[13px] 2xl:text-[17px] font-[400] mt-[7px] text-left">
             What should your agent focus on?
           </p>
-          <ul className="text-[13px] xl:text-[13px] 2xl:text-[28px] font-[400] mt-[5px] text-left list-disc ml-[25px]">
+          <ul className="text-[13px] xl:text-[13px] 2xl:text-[17px] font-[400] mt-[5px] text-left list-disc ml-[25px]">
             <li>
               <b>Trader:</b> Buys, sells, and flips assets for profit
             </li>
@@ -85,7 +85,7 @@ const CreateAgent = () => {
       {/* messege box */}
 
       {/* chatbox */}
-      <div className="w-[100%] xl:w-[625px] 2xl:w-[1300px]  border border-[#000] shadow-lg rounded-lg h-[120px] 2xl:h-[142px] mt-[70px] fixed 2xl:bottom-[3rem] z-[9999999] xl:bottom-[3rem] lg:bottom-[3rem] bottom-[20px] sticki bg-[#fff] ">
+      <div className="w-[100%] xl:w-[625px] 2xl:w-[800px]  border border-[#000] shadow-lg rounded-lg h-[120px] 2xl:h-[137px] mt-[70px] fixed 2xl:bottom-[3rem] z-[9999999] xl:bottom-[3rem] lg:bottom-[3rem] bottom-[20px] sticki bg-[#fff] ">
         <textarea
           className="w-full p-0 focus:outline-none border-none resize-none placeholder-gray-400 text-black pl-[15px] pt-[12px] bg_none xl:text-[12px] 2xl:text-[17px] text-[12px]"
           placeholder="Talk to the swarm..."
@@ -122,7 +122,7 @@ const CreateAgent = () => {
 
           <button
             type="submit"
-            className="flex items-center gap-3 mr-[13px] xl:text-[13px] 2xl:text-[28px] text-[14px] "
+            className="flex items-center gap-3 mr-[13px] xl:text-[13px] 2xl:text-[17px] text-[14px] "
           >
             Enter{" "}
             <span>
