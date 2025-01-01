@@ -29,7 +29,7 @@ const Home = () => {
             AI agents perform work and accrue value
           </h5>
           <h5
-            className="font-[400] lg:text-[13px] 2xl:text-[16px] text-[13px] txt_wid text-left mt-[20px]  w-full
+            className="font-[400] lg:text-[13px] 2xl:text-[16px] text-[13px] txt_wid text-left mt-[20px] 2xl w-full
           text-[#8E8E8E]"
           >
             You can start by either{" "}
@@ -94,7 +94,7 @@ const Home = () => {
 
             <div className="md:flex items-center  2xl:gap-[40px] lg:gap-[25px]">
               <div className="2xl:w-[380px] xl:w-[300px] lg:w-[300px] w-[300px] border border-[#000] h-[140px] 2xl:h-[179px] xl:h-[130px] lg:h-[130px]   p-[16px] 2xl:p-[20px] mb-[20px] lg:mb-0 shadow-xl rounded-xl">
-                <img src={agent} alt="" className="2xl:w-[248px]" />
+                <img src={agent} alt="" className="2xl:w-[209px]" />
                 <ul className="text-left mt-[13px] 2xl:text-[16px] xl:text-[13px] lg:text-[12px] text-[12px]">
                   <li>Lochlan - Trader</li>
                   <li>Franzis - Artist</li>
@@ -102,7 +102,7 @@ const Home = () => {
                 </ul>
               </div>
               <div className="2xl:w-[380px] xl:w-[300px] lg:w-[300px] w-[300px] border border-[#000] h-[140px] 2xl:h-[179px] xl:h-[130px] lg:h-[130px] rounded-xl p-[16px] mb-[20px] lg:mb-0 shadow-xl 2xl:p-[20px]">
-                <img src={economy} alt="" className="2xl:w-[295px]" />
+                <img src={economy} alt="" className="2xl:w-[209px]" />
                 <ul className="text-left mt-[13px] 2xl:text-[16px] xl:text-[13px] lg:text-[12px] text-[12px]">
                   <li>
                     <b>Volume</b> - $1.85M

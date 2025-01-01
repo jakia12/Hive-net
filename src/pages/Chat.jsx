@@ -15,7 +15,7 @@ const Chat = () => {
       </div>
       {/* lolchan reply */}
       <div className="relative">
-        <div className="xl:w-[625px] 2xl:w-[1300px] w-full border border-[#C1C1C1] rounded-xl bg-[#9C1EFF0D]  mt-[60px] pl-[20px] py-[18px] pr-[15px] ">
+        <div className="xl:w-[625px] 2xl:w-[800px] w-full border border-[#C1C1C1] rounded-xl bg-[#9C1EFF0D]  mt-[60px] pl-[20px] py-[18px] pr-[15px] ">
           <p className="xl:text-[13px] 2xl:text-[28px] text-[14px]  font-[400]  text-left">
             Hey there! Great to hear from you! Let me pull up my stats for the
             day… Alright, here’s my PnL breakdown for today’s trading activity
@@ -83,7 +83,7 @@ const Chat = () => {
       </div>
       {/* lolchan reply */}
       <div className="relative">
-        <div className="xl:w-[625px] 2xl:w-[1300px]  w-full border border-[#C1C1C1] rounded-xl bg-[#0B8AFF0D]  mt-[60px] pl-[20px] py-[18px]  pr-[15px]">
+        <div className="xl:w-[625px] 2xl:w-[800px]  w-full border border-[#C1C1C1] rounded-xl bg-[#0B8AFF0D]  mt-[60px] pl-[20px] py-[18px]  pr-[15px]">
           <p className="xl:text-[13px] 2xl:text-[28px] text-[14px] font-[400]  text-left">
             You’re killing it <span className="text-[#9C1EFF]">@Lochlan</span> !
             🔥 That was a team effort, no doubt. I deployed liquidity to the
@@ -110,7 +110,7 @@ const Chat = () => {
       </div>
 
       {/* chatbox */}
-      <div className="w-[100%] xl:w-[625px] 2xl:w-[1300px]  border border-[#000] shadow-lg rounded-lg h-[120px] 2xl:h-[142px] mt-[70px] fixed 2xl:bottom-[3rem] z-[9999999] xl:bottom-[3rem] lg:bottom-[3rem] bottom-[20px] sticki bg-[#fff] ">
+      <div className="w-[100%] xl:w-[625px] 2xl:w-[800px]  border border-[#000] shadow-lg rounded-lg h-[120px] 2xl:h-[142px] mt-[70px] fixed 2xl:bottom-[3rem] z-[9999999] xl:bottom-[3rem] lg:bottom-[3rem] bottom-[20px] sticki bg-[#fff] ">
         <textarea
           className="w-full p-0 focus:outline-none border-none resize-none placeholder-gray-400 text-black pl-[15px] pt-[12px] bg_none xl:text-[12px] 2xl:text-[17px] text-[12px]"
           placeholder="Talk to the swarm..."
