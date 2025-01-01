@@ -49,49 +49,12 @@ body {
   background-color: #fff;
 }
 .wrapper {
-  width: 1300px;
+  width: 900px;
+  margin: 0 auto;
 }
 
 .stroke {
   -webkit-text-stroke: 2px #000;
-}
-
-@media screen and (max-width: 1500px) {
-  .wrapper {
-    width: 625px;
-  }
-  .bottom_border {
-    position: fixed;
-    height: 37px;
-    border-top: 1px solid #000;
-    bottom: 0;
-    left: 70px;
-    width: 100%;
-  }
-  .gearIcon {
-    position: absolute;
-    margin: 0 auto;
-    bottom: 101px;
-    left: 43%;
-    width: 23px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .wrapper {
-    width: 634px;
-  }
-  .bottom_border {
-    left: 70px;
-    width: 100%;
-  }
-  .gearIcon {
-    position: absolute;
-    margin: 0 auto;
-    bottom: 101px;
-    left: 43%;
-    width: 23px;
-  }
 }
 
 @media screen and (max-width: 768px) {
