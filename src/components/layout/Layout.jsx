@@ -20,7 +20,7 @@ const Layout = () => {
         />
       </div>
       <div className="flex-1 overflow-y-auto relative md:h-auto 2xl:pt-[180px] lg:pt-[80px] 2xl:pb-[180px] lg:pb-[120px] pb-[90px] flex items-center justify-center 2xl:ml-[90px] xl:ml-[70px] lg:ml-[70px] ml-0 px-4 sm:px-6">
-        <div className="w-full">
+        <div className="wrapper">
           <div className="w-full  text-white border-b border-[#000] flex items-center  h-full lg:hidden justify-between mb-[70px]">
             <img src={logo} className="" alt="" />
 
