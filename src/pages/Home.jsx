@@ -17,7 +17,7 @@ const Home = () => {
             <img
               src={logo}
               alt=""
-              className="2xl:w-[65px] lg:w-[44px] ml-[23px]"
+              className="2xl:w-[65px] lg:w-[44px] w-[44px] ml-[22px]"
             />
           </div>
           <h5 className="font-[400] lg:text-[13px] 2xl:text-[16px] text-[13px] txt_wid text-left mt-[16px]  w-full">
@@ -97,7 +97,7 @@ const Home = () => {
             </h2>
 
             <div className="md:flex items-center  2xl:gap-[40px] lg:gap-[25px]">
-              <div className="2xl:w-[380px] xl:w-[300px] lg:w-[300px] w-[300px] border border-[#000] h-[140px] 2xl:h-[179px] xl:h-[130px] lg:h-[130px]   p-[16px] 2xl:p-[20px] mb-[20px] lg:mb-0 shadow-xl rounded-xl">
+              <div className="2xl:w-[380px] xl:w-[300px] lg:w-[300px] w-[300px] border border-[#000] h-[140px] 2xl:h-[179px] xl:h-[130px] lg:h-[130px]   p-[20px] 2xl:py-[22px] 2xl:px-[28px] mb-[20px] lg:mb-0 shadow-xl rounded-xl">
                 <img src={agent} alt="" className="2xl:w-[195px]" />
                 <ul className="text-left mt-[13px] 2xl:text-[16px] xl:text-[13px] lg:text-[12px] text-[12px]">
                   <li>Lochlan - Trader</li>
