@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 289.1 344.28">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 291.1 346.57">
   <defs>
     <style>
       .cls-1 {
-        fill: url(#linear-gradient-4);
+        fill: url(#linear-gradient);
       }
 
       .cls-1, .cls-2, .cls-3, .cls-4 {
         stroke: #231f20;
         stroke-miterlimit: 10;
-        stroke-width: 3px;
+        stroke-width: 5px;
       }
 
       .cls-2 {
-        fill: url(#linear-gradient);
+        fill: url(#linear-gradient-4);
       }
 
       .cls-3 {
-        fill: url(#linear-gradient-2);
+        fill: url(#linear-gradient-3);
       }
 
       .cls-4 {
-        fill: url(#linear-gradient-3);
+        fill: url(#linear-gradient-2);
       }
     </style>
-    <linearGradient id="linear-gradient" x1="135.86" y1="94.65" x2="235.07" y2="94.65" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="136.86" y1="95.79" x2="236.07" y2="95.79" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#e597c1"/>
       <stop offset="1" stop-color="#f8b962"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="51.41" y1="172.27" x2="69.7" y2="172.27" xlink:href="#linear-gradient"/>
-    <linearGradient id="linear-gradient-3" x1="137.75" y1="247.64" x2="237.04" y2="247.64" xlink:href="#linear-gradient"/>
-    <linearGradient id="linear-gradient-4" x1="1.5" y1="172.14" x2="287.6" y2="172.14" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-2" x1="52.41" y1="173.42" x2="70.7" y2="173.42" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="138.75" y1="248.79" x2="238.04" y2="248.79" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="2.5" y1="173.28" x2="288.6" y2="173.28" xlink:href="#linear-gradient"/>
   </defs>
-  <polygon class="cls-2" points="144.95 60.73 135.86 76.44 225.8 128.56 225.95 128.56 235.07 112.71 144.95 60.73"/>
-  <polygon class="cls-3" points="69.64 109 51.41 109 51.41 235.55 69.7 235.55 69.64 109"/>
-  <polygon class="cls-4" points="137.75 265.82 147 281.61 237.04 229.39 227.9 213.67 137.75 265.82"/>
-  <path class="cls-1" d="m287.59,81.63L144.49,1.72,1.5,81.42v181.42l143.04,79.72,143.06-79.93V81.63Zm-21.62,165.37l-121.41,67.69L23.11,247.01V97.27L144.53,29.58l121.44,67.68v149.74Z"/>
+  <polygon class="cls-1" points="145.95 61.88 136.86 77.58 226.8 129.71 226.95 129.71 236.07 113.85 145.95 61.88"/>
+  <polygon class="cls-4" points="70.64 110.14 52.41 110.14 52.41 236.69 70.7 236.69 70.64 110.14"/>
+  <polygon class="cls-3" points="138.75 266.97 148 282.76 238.04 230.53 228.9 214.81 138.75 266.97"/>
+  <path class="cls-2" d="m288.59,82.77L145.49,2.86,2.5,82.56v181.42l143.04,79.72,143.06-79.93V82.77Zm-21.62,165.37l-121.41,67.69L24.11,248.15V98.41L145.53,30.72l121.44,67.68v149.74Z"/>
 </svg>
