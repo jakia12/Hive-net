@@ -3,7 +3,7 @@
 import { Outlet } from "react-router-dom";
 import flogo from "../../../public/assets/flLogo.png";
 import gear from "../../../public/assets/gear.png";
-import logo from "../../../public/assets/logo.png";
+import logo from "../../../public/assets/logo.svg";
 
 const Layout = () => {
   return (

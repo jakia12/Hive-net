@@ -6,10 +6,10 @@ const CreateAgent = () => {
     <div className="pb-[120px]">
       {/* user question */}
       <div className="w-fit relative">
-        <h4 className=" text-[13px] xl:text-[13px] 2xl:text-[17px] py-[13px] pl-[18px] 2xl:pr-[30px] xl:pr-[30px] lg:pr-[30px] pr-[18px] text-left rounded-lg bg-[#F5F5F5] border border-[#C1C1C1] ">
+        <h4 className=" text-[13px] xl:text-[13px] 2xl:text-[17px] py-[13px] pl-[18px] 2xl:pr-[46px] xl:pr-[46px] lg:pr-[46px] pr-[30px] text-left rounded-lg bg-[#F5F5F5] border border-[#C1C1C1] ">
           create new agent
         </h4>
-        <h5 className="text-right absolute right-0 mt-[7px] text-[12px] xl:text-[12px] 2xl:text-[20px]">
+        <h5 className="text-right absolute right-0 mt-[7px] 2xl:text-[16px] text-[12px] xl:text-[12px] lg:text-[12px]">
           You <span className="text-[#8E8E8E]">1.05pm</span>
         </h5>
       </div>
@@ -27,7 +27,7 @@ const CreateAgent = () => {
             What do you want to call your agent? Something snappy, maybe?
           </p>
         </div>
-        <div className="absolute right-0 flex items-center gap-2 mt-[7px] text-[12px] xl:text-[12px] 2xl:text-[20px] ">
+        <div className="absolute right-0 flex items-center gap-2 mt-[7px] 2xl:text-[16px] text-[12px] xl:text-[12px] lg:text-[12px]">
           <img src={logo} className="w-[8px] h-[8px]" alt="" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF76D9]  to-[#FDD33E]">
             @Lochlan
@@ -37,10 +37,10 @@ const CreateAgent = () => {
       </div>
       {/* user question */}
       <div className="w-fit relative mt-[40px]">
-        <h4 className=" text-[13px] xl:text-[13px] 2xl:text-[17px] py-[13px] pl-[18px] 2xl:pr-[30px] xl:pr-[30px] lg:pr-[30px] pr-[18px] text-left rounded-lg bg-[#F5F5F5] border border-[#C1C1C1] ">
+        <h4 className=" text-[13px] xl:text-[13px] 2xl:text-[17px] py-[13px] pl-[18px] 2xl:pr-[46px] xl:pr-[46px] lg:pr-[46px] pr-[30px] text-left rounded-lg bg-[#F5F5F5] border border-[#C1C1C1] ">
           Jasper
         </h4>
-        <h5 className="text-right absolute right-0 mt-[7px] text-[12px] xl:text-[12px] 2xl:text-[20px]">
+        <h5 className="text-right absolute right-0 mt-[7px] 2xl:text-[16px] text-[12px] xl:text-[12px] lg:text-[12px]">
           You <span className="text-[#8E8E8E]">1.05pm</span>
         </h5>
       </div>
@@ -73,7 +73,7 @@ const CreateAgent = () => {
             </li>
           </ul>
         </div>
-        <div className="absolute right-0 flex items-center gap-2 mt-[7px] text-[12px] xl:text-[12px] 2xl:text-[20px]">
+        <div className="absolute right-0 flex items-center gap-2 mt-[7px] 2xl:text-[16px] text-[12px] xl:text-[12px] lg:text-[12px]">
           <img src={logo} className="w-[8px] h-[8px]" alt="" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF76D9]  to-[#FDD33E] ">
             @Lochlan
