@@ -15,7 +15,7 @@ const Layout = () => {
         <img src={gear} className="gearIcon" alt="" />
         <img
           src={flogo}
-          className="bottomLogo 2xl:w-[54px] lg:w-[40px]"
+          className="bottomLogo 2xl:w-[65px] lg:w-[40px]"
           alt=""
         />
       </div>

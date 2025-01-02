@@ -14,7 +14,11 @@ const Home = () => {
               Hivenet V1
             </h2>
 
-            <img src={logo} alt="" className="2xl:w-[68px] lg:w-[44px]" />
+            <img
+              src={logo}
+              alt=""
+              className="2xl:w-[68px] lg:w-[44px] ml-[23px]"
+            />
           </div>
           <h5 className="font-[400] lg:text-[13px] 2xl:text-[16px] text-[13px] txt_wid text-left mt-[16px]  w-full">
             This is the{" "}
