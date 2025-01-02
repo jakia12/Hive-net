@@ -17,7 +17,7 @@ const Home = () => {
             <img
               src={logo}
               alt=""
-              className="2xl:w-[68px] lg:w-[44px] ml-[23px]"
+              className="2xl:w-[65px] lg:w-[44px] ml-[23px]"
             />
           </div>
           <h5 className="font-[400] lg:text-[13px] 2xl:text-[16px] text-[13px] txt_wid text-left mt-[16px]  w-full">
@@ -124,7 +124,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bottom_border  fixed hidden lg:block"></div>
+      <div className="bottom_border  fixed hidden lg:block left-[70px] xl:left-[70px] lg:left-[70px] 2xl:left-[90px]"></div>
     </>
   );
 };

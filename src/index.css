@@ -24,7 +24,7 @@ body {
   position: absolute;
   margin: 0 auto;
   bottom: 35px;
-  left: 30%;
+  left: 24%;
 }
 .topLogo {
   margin: 0 auto;
@@ -44,7 +44,7 @@ body {
   height: 37px;
   border-top: 1px solid #000;
   bottom: 0;
-  left: 90px;
+
   width: 100%;
   background-color: #fff;
 }

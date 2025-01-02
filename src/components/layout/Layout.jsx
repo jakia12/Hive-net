@@ -10,12 +10,12 @@ const Layout = () => {
     <div className="flex  ">
       {/* <div className="xl:w-[6%] lg:w-[5%] w-[5%] border-r border-black h-[130vh] relative"> */}
       <div className="xl:w-[70px] lg:w-[70px] 2xl:w-[90px]   text-white border-r border-black lg:flex flex-col items-center fixed h-full hidden ">
-        <img src={logo} className="topLogo 2xl:w-[54px] lg:w-[40px]" alt="" />
+        <img src={logo} className="topLogo 2xl:w-[65px] lg:w-[40px]" alt="" />
 
         <img src={gear} className="gearIcon" alt="" />
         <img
           src={flogo}
-          className="bottomLogo 2xl:w-[65px] lg:w-[40px]"
+          className="bottomLogo 2xl:w-[54px] lg:w-[40px]"
           alt=""
         />
       </div>
